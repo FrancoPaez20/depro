@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>DEPRO - INICIO</title>
+	<link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+	<header class="header">
+		
+		<div class="logo">
+
+			<a href="#">DEPRO</a>
+			
+		</div>
+
+		<div class="botonesMenu">
+			
+			<ul>
+				<li><a href="#">INICIO</a></li>
+				<li><a href="#ABOUT">NOSOTROS</a></li>
+				<li><a href="#SERVICES">SERVICIOS</a></li>
+				<li><a href="#CONTAC">CONTACTO</a></li>
+				<!--<div id="line" class="line"></div>-->
+			</ul>
+
+		</div>
+
+	</header>
+
+	<div class="portada">
+		
+		<!--<p>DISEÑO WEB / SISTEMAS INFORMATICOS / SOCIAL MEDIA</p>-->
+		<h1>Potenciá tus proyectos</h1>
+		<p>Incrementá tus ventas y el impacto de tu marca en el mundo digital.</p>
+		<a href="#CONTAC">Empecemos</a>
+
+	</div>
+	
+	<div class="descripcion" id="ABOUT">
+		
+		<h2>¿Quienes Somos?</h2>
+		<p>Somos dos sujetos que nunca dejamos de aprender, apacionados por las nuevas tecnologias, la programacion, seguridad y el diseño<!--UI/UX.--></p>
+		<a href="#">Saber más</a> 	
+
+	</div>
+
+	<div class="tituloServicio" id="SERVICES">
+		
+		<h2>Nuestros servicios</h2>
+
+	</div>
+
+	<div class="servicios">
+		
+		<div class="item">
+				
+				
+			<div class="textoServicio">
+					
+				<h3>DISEÑO WEB</h3>
+				<p> 
+					En DEPRO construimos sitios web hechos a tu medida y en base a las necesidades de tu negocio utilizando las mejores herramientas para brindarte una excelente calidad de servicio.
+				</p>
+				<a href="#">Me interesa</a>
+			</div>
+
+			<img src="webColor.svg" alt="">
+
+		</div>
+
+		<div class="item">
+				
+			<img src="webColor1.svg" alt="" class="visible">
+			
+			<div class="textoServicio">
+					
+				<h3>SISTEMAS INFORMATICOS</h3>
+				<p>
+					Desarrollamos sistemas informáticos específicos, seguros y eficientes para simplificar la tarea de gestionar tu negocio.
+				</p>
+				<a href="#">Me interesa</a>
+			</div>
+
+			<img src="webColor1.svg" alt="" class="oculto">
+
+		</div>
+
+		<div class="item">		
+				
+			<div class="textoServicio">
+
+				<h3>COMMUNITY MANAGER</h3>
+				<p>
+					DEPRO te ofrece la posibilidad de incorporar los beneficios de las redes sociales a tu negocio para llegar a mas gente y aumentar tu exposición.
+				</p>
+				<a href="#">Me interesa</a>
+
+			</div>
+
+			<img src="socialColor.svg" alt="">
+		
+		</div>
+
+	</div>
+
+	<div class="propuesta" id="CONTAC">
+		
+		<h2>¿Tenés una idea en mente?</h2>
+		<a href="#">CONCRETÁLA</a>
+
+	</div>
+
+	<footer>
+		
+		<div class="redes">
+
+			<a target="_blank" href="https://www.facebook.com/somosdepro">FACEBOOK</a>
+			<a target="_blank" href="">TWITTER</a>
+			<a target="_blank" href="https://www.instagram.com/somosdepro">INSTAGRAM</a>
+			
+		</div>
+
+	</footer>
+
+	<script>
+
+		var fecha = new Date().getFullYear();
+		document.getElementsByTagName('footer')[0].innerHTML += `<p>Copyright ${fecha} &copy; Todos los Derechos Reservados - DEPRO</p>`;
+
+	</script>
+
+</body>
+</html>

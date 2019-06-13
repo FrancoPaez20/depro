@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="theme-color" content="#2C383F"/>
+	<meta name="description" content="Somos dos jóvenes apasionados por las nuevas tecnologías de programación, diseño, y de mas herramientas que ayudan a posicionar y dar a conocer su marca en el mundo digital.">
+	<title>DEPRO - INICIO</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+	<header class="header">
+		
+		<div class="logo">
+
+			<a href="#">DEPRO</a>
+			<!-- <a href="#" class="toggle" id="toggle">&#9776;</a> -->
+			
+		</div>
+
+		<div class="botonesMenu" id="botonesMenu">
+			
+			<ul>
+				<li><a href="#">INICIO</a></li>
+				<li><a href="#ABOUT">NOSOTROS</a></li>
+				<li><a href="#SERVICES">SERVICIOS</a></li>
+				<li><a href="#CONTAC">CONTACTO</a></li>
+			</ul>
+
+		</div>
+
+	</header>
+
+	<div class="portada">
+		
+		<div class="contenedorPortada">
+
+			<h1>Potencia tus proyectos</h1>
+			<p>Incrementa tus ventas y el impacto de tu marca en el mundo digital.</p>
+			<a href="#CONTAC">Empecemos</a>
+
+		</div>
+
+	</div>
+	
+	<div class="descripcion" id="ABOUT">
+		
+		<h2>¿QUIENES SOMOS?</h2>
+		<p>Somos dos jóvenes apasionados por las nuevas tecnologías de programación, diseño, y de mas herramientas que ayudan a posicionar y dar a conocer su marca en el mundo digital.</p>
+
+	</div>
+
+	<div class="tituloServicio" id="SERVICES">
+		
+		<h2>NUESTROS SERVICIOS</h2>
+
+	</div>
+
+	<div class="servicios">
+
+		<div class="contenedorServicios">
+
+			<div class="item">
+					
+				<div class="textoServicio">
+						
+					<h3>DISEÑO WEB</h3>
+					<p>Construimos sitios web hechos a tu medida y en base a las necesidades de tu negocio utilizando las mejores herramientas para brindarte una excelente calidad de servicio.</p>
+
+				</div>
+
+				<img src="webColor.svg" alt="">
+
+			</div>
+
+			<div class="item">
+					
+				<img src="webColor1.svg" alt="" class="visible">
+				
+				<div class="textoServicio">
+						
+					<h3>SISTEMAS INFORMATICOS</h3>
+					<p>Desarrollamos sistemas informáticos específicos, seguros y eficientes para simplificar la tarea de gestionar tu negocio.</p>
+
+				</div>
+
+				<img src="webColor1.svg" alt="" class="oculto">
+
+			</div>
+
+			<div class="item">		
+					
+				<div class="textoServicio">
+
+					<h3>COMMUNITY MANAGER</h3>
+					<p>Ofrecemos la posibilidad de incorporar los beneficios de las redes sociales a tu negocio para llegar a mas gente y aumentar tu exposición.</p>
+
+				</div>
+
+				<img src="socialColor.svg" alt="">
+			
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="propuesta" id="CONTAC">
+		
+		<h2>¿Tenés una idea en mente?</h2>
+		<a href="#">CONCRETALA</a>
+
+	</div>
+
+	<footer>
+		
+		<div class="redes">
+
+			<a target="_blank" href="https://www.facebook.com/somosdepro">FACEBOOK</a>
+			<a target="_blank" href="https://twitter.com/somosdepro">TWITTER</a>
+			<a target="_blank" href="https://www.instagram.com/somosdepro">INSTAGRAM</a>
+			
+		</div>
+
+	</footer>
+
+	<script>
+
+		var fecha = new Date().getFullYear();
+		document.getElementsByTagName('footer')[0].innerHTML += `<p>Copyright ${fecha} &copy; Todos los Derechos Reservados - DEPRO</p>`;
+
+	</script>
+
+	<!-- <script src="jquery.min.js"></script> -->
+	<script src="index.js"></script>
+
+</body>
+</html>
